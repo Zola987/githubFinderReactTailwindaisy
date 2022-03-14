@@ -25,7 +25,6 @@ function User() {
     bio,
     blog,
     twitter_username,
-    login,
     html_url,
     followers,
     following,
@@ -53,10 +52,6 @@ function User() {
               <figure>
                 <img src={avatar_url} alt="" />
               </figure>
-              <div className="card-body justify-end">
-                <h2 className="card-title mb-0">{name}</h2>
-                <p>{login}</p>
-              </div>
             </div>
           </div>
 
